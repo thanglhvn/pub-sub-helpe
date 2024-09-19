@@ -1,0 +1,30 @@
+{
+    "name": "ochikala/pub-sub-helper",
+    "description": "PHP Independent library to interact with queue more easily",
+    "type": "library",
+    "require": {
+        "php": "^7.1",
+        "ext-json": "*",
+        "enqueue/amqp-lib": "^0.10.4",
+        "symfony/serializer": "^4.4.16",
+        "symfony/property-access": "^4.4.16",
+        "symfony/property-info": "^4.4.16",
+        "doctrine/doctrine-orm-module": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PubSubHelper\\": "src/"
+        }
+    },
+    "license": "GNU GPL 3.0",
+    "authors": [
+        {
+            "name": "ochikala",
+            "email": "lehoangthang87@gmail.com"
+        }
+    ],
+    "repositories": [
+        { "type": "vcs", "url": "git@github.com:ngonam22/st-common-service.git" }
+    ],
+    "minimum-stability": "dev"
+}
